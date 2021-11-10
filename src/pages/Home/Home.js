@@ -4,6 +4,7 @@ import makeStyles from '@mui/styles/makeStyles'
 import data from 'data'
 import styles from './Home.styles'
 import PlayerCard from 'components/PlayerCard/PlayerCard'
+import PlayersFilter from 'components/PlayersFilter/PlayersFilter'
 
 const useStyles = makeStyles(styles)
 
@@ -12,6 +13,7 @@ const Home = (props) => {
 
   return (
     <div className={classes.root}>
+      <PlayersFilter />
       <div className={classes.cards} style={{  }}>
         {
           data.map(
