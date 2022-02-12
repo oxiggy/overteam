@@ -4,11 +4,14 @@ const theme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#f07229',
+      main: '#EF6623',
     },
     secondary: {
-      main: '#0E7AC4',
+      main: '#9AA2A9',
     },
+    success: { main: '#0E7AC4' },
+    error: { main: '#EF6623' },
+    warning: { main: '#E5C121' },
     rank: {
       bronze: '#9A4E3F',
       silver: '#919191',
@@ -22,6 +25,10 @@ const theme = createTheme({
         dark: 'rgba(0,0,0,0.15)',
       }
     },
+    team: {
+      blue: '#04E3FC',
+      red: '#D1294D',
+    }
   },
   components: {
     MuiCheckbox: {
